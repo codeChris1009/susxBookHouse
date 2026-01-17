@@ -1,0 +1,94 @@
+# 作業系統
+.DS_Store
+Thumbs.db
+
+# Rider (JetBrains)
+.idea/
+*.sln.iml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/shelf/
+.idea/**/dictionaries/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# .NET Core / .NET
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+*.dotsettings.user
+
+# NuGet
+packages/
+.nuget/packages/
+
+# Build / tooling
+.vs/
+*.log
+*.vspscc
+*.vssscc
+*.cache
+*.tmp
+*.tmp_proj
+
+# Test / Coverage / Profiling
+*.coverage
+*.coveragexml
+*.trx
+*.ncrunch*
+*.DotSettings.user
+*.dotCover
+
+# Database / EF / local data
+*.db
+*.dbmdl
+*.mdf
+*.ldf
+
+# Rider / Resharper caches
+_ReSharper*/
+*/_ReSharper*/
+.idea/
+
+# Dotnet local tools
+.dotnet/tools/
+
+# Misc
+*.bak
+*~
+*.swp
+*.pid
+*.seed
+
+# Generated / 3rd-party
+*.dll
+*.exe
+*.pdb
+*.class
+*.so
+*.dylib
+
+# Secrets (視專案需求)
+secrets.json
+secrets.jsonc
+
+# appsettings 配置（涵蓋 .json 與 .jsonc、含帶有環境或 Local 的變體）
+appsettings.json
+appsettings.jsonc
+appsettings.*.json
+appsettings.*.jsonc
+appsettings.*.Local.json
+appsettings.*.Local.jsonc
