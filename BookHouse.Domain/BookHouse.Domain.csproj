@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BookHouse.ShareKernel\BookHouse.ShareKernel.csproj" />
+    </ItemGroup>
+
 </Project>
